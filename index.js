@@ -10,7 +10,9 @@ const { Product } = require("./models/product");
 const { Crawldate } = require("./models/crawldate");
 
 mongoose
-  .connect("mongodb://localhost/price-manager")
+  .connect(
+    "mongodb://price-manager-user:S1h2a3z4w5i6@ds141188.mlab.com:41188/price-manager"
+  )
   .then(() => console.log("Connected to MongoDB..."))
   .catch(err => console.error("Could not connect to MongoDB..."));
 
