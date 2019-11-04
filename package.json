@@ -16,5 +16,8 @@
     "moment": "^2.24.0",
     "mongoose": "^5.7.7",
     "nodemon": "^1.19.4"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
 }
